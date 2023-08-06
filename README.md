@@ -20,4 +20,4 @@ Converts invivo dental viewer (.inv) files to a sequence of 16-bit TIFF images.
  5. Done!
  The TIFF images are in the same folder as the python script.
 
-If you ran into any issues with this script, feel free to try and fix them yourself. I don't plan to maintain this repo. I just made it to solve a problem I faced where the Bostwickenator/InvivoExtractor repo wasn't extracting all the images from my file, possibly due to an update in the file format. It says it's a version 2 INV file in the metadata. The code is loosely based on that repo, I just had ChatGPT adapt the original to python and used that as a starting point. 
+If you ran into any issues with this script, feel free to try and fix them yourself. I don't plan to maintain this repo. I just made it to solve a problem I faced where the Bostwickenator/InvivoExtractor repo wasn't extracting all the images from my file, possibly due to an update in the file format. It says it's a version 2 INV file in the metadata. The code is loosely based on that repo, I just had ChatGPT refactor the original to python and used that as a starting point. 
