@@ -13,9 +13,9 @@ Converts invivo dental viewer (.inv) files to a sequence of 16-bit TIFF images.
  ```
  git clone https://github.com/metaprotium/InvivoConvert.git && cd InvivoConvert
  ```
- 4. Convert
+ 4. Convert. Pick between Full, Partial, or None for how much metadata you want printed to the command line. This metadata includes patient information. "Partial" is meant to be human readable, I'd recommend that. 
  ```
- python convert.py {location of your .inv file}
+ python convert.py {location of your .inv file} Partial
  ```
  5. Done!
  The TIFF images are in the same folder as the python script.
